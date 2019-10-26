@@ -1,7 +1,7 @@
 # Setup
 title:        nlpfm
 tagline:      自然语言处理
-baseurl:      ""
+baseurl:      https://nlpfm.github.io/
 paginate:     1
 locale:       "en"
 
