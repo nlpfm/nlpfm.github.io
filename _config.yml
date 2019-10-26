@@ -1,14 +1,14 @@
 # Setup
 title:        nlpfm
 tagline:      自然语言处理
-baseurl:      https://nlpfm.github.io/
+baseurl:      https://nlpfm.github.io
 paginate:     1
 locale:       "en"
 
 # About/contact
 author:
   name:       nlpfm
-  url:        https://nlpfm.github.io/
+  url:        https://nlpfm.github.io
 
 # Gems
 gems:
