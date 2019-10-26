@@ -8,7 +8,7 @@ locale:       "en"
 # About/contact
 author:
   name:       nlpfm
-  url:        https://nlpfm.github.io
+  url:        https://nlpfm.github.io/
 
 # Gems
 gems:
