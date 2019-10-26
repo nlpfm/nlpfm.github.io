@@ -10,4 +10,26 @@ title: {{ site.name }}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
+  {% for post in site.posts %}
+  <div class="post-preview">
+    <a href="{{ site.baseurl }}{{ post.url }}">
+        <h2 class="post-title">
+            {{ post.title }}
+        </h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+        </h3>
+        {% endif %}
+        <div class="post-content-preview">
+            {{ post.content | strip_html | truncate:200 }}
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by {{ site.title }} on {{ post.date | date: "%B %-d, %Y" }}
+    </p>
+  </div>
+  <hr>
+  {% endfor %}
+
 </div>
